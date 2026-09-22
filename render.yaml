@@ -13,7 +13,7 @@ services:
       - key: NODE_ENV
         value: production
       - key: CLIENT_URL
-        value: https://digital-heroes-frontend.onrender.com
+        value: https://digital-heroes-frontend-mrnu.onrender.com
       - key: JWT_SECRET
         value: digital_heroes_super_secret_jwt_key_change_in_production
       - key: JWT_EXPIRES_IN
@@ -53,4 +53,4 @@ services:
         destination: /index.html
     envVars:
       - key: VITE_API_URL
-        value: https://digital-heroes-backend.onrender.com/api
+        value: https://digital-heroes-backend-mrnu.onrender.com/api
