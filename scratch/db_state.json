@@ -1,0 +1,1233 @@
+{
+  "users": [
+    {
+      "id": "aaaaaaaa-aaaa-aaaa-aaaa-aaaaaaaaaaaa",
+      "role": "ADMIN",
+      "charity_percentage": 15,
+      "created_at": "2026-09-21T18:08:00.663Z",
+      "updated_at": "2026-09-21T18:08:00.663Z",
+      "email": "admin@digitalheroes.co.in",
+      "password_hash": "$2b$10$90.2DDYWejaGUvlPZ70sbOVlK1K5asnBFclff0zj84cHwO0kBW5j.",
+      "name": "Sarah Sterling (Admin)",
+      "selected_charity_id": "11111111-1111-1111-1111-111111111111"
+    },
+    {
+      "id": "bbbbbbbb-bbbb-bbbb-bbbb-bbbbbbbbbbbb",
+      "role": "USER",
+      "charity_percentage": 20,
+      "created_at": "2026-09-21T18:08:00.664Z",
+      "updated_at": "2026-09-21T18:08:00.664Z",
+      "email": "subscriber@digitalheroes.co.in",
+      "password_hash": "$2b$10$zMR6LHJzq6riB.zc/zvXROyoAs/6D.UKkFulS4Fn17dQedEqMOPpW",
+      "name": "Alex Mercer",
+      "selected_charity_id": "22222222-2222-2222-2222-222222222222"
+    },
+    {
+      "id": "ea157924-d11a-4743-a4a9-3075b47090e3",
+      "role": "USER",
+      "charity_percentage": 15,
+      "created_at": "2026-09-21T18:08:00.668Z",
+      "updated_at": "2026-09-21T18:08:00.668Z",
+      "email": "marcus.c@example.com",
+      "password_hash": "$2b$10$zMR6LHJzq6riB.zc/zvXROyoAs/6D.UKkFulS4Fn17dQedEqMOPpW",
+      "name": "Marcus Chen",
+      "selected_charity_id": "11111111-1111-1111-1111-111111111111"
+    },
+    {
+      "id": "e17d3b7c-10c5-4f79-9da6-17a950380406",
+      "role": "USER",
+      "charity_percentage": 25,
+      "created_at": "2026-09-21T18:08:00.670Z",
+      "updated_at": "2026-09-21T18:08:00.670Z",
+      "email": "elena.r@example.com",
+      "password_hash": "$2b$10$zMR6LHJzq6riB.zc/zvXROyoAs/6D.UKkFulS4Fn17dQedEqMOPpW",
+      "name": "Elena Rostova",
+      "selected_charity_id": "22222222-2222-2222-2222-222222222222"
+    },
+    {
+      "id": "cad3134a-5d14-4f96-b8a6-1020f155fee4",
+      "role": "USER",
+      "charity_percentage": 10,
+      "created_at": "2026-09-21T18:08:00.673Z",
+      "updated_at": "2026-09-21T18:08:00.673Z",
+      "email": "david.o@example.com",
+      "password_hash": "$2b$10$zMR6LHJzq6riB.zc/zvXROyoAs/6D.UKkFulS4Fn17dQedEqMOPpW",
+      "name": "David Okafor",
+      "selected_charity_id": "33333333-3333-3333-3333-333333333333"
+    },
+    {
+      "id": "e3a976b2-da1e-4df4-804d-5785e80f2b50",
+      "role": "USER",
+      "charity_percentage": 20,
+      "created_at": "2026-09-21T18:08:00.675Z",
+      "updated_at": "2026-09-21T18:08:00.675Z",
+      "email": "priya.s@example.com",
+      "password_hash": "$2b$10$zMR6LHJzq6riB.zc/zvXROyoAs/6D.UKkFulS4Fn17dQedEqMOPpW",
+      "name": "Priya Sharma",
+      "selected_charity_id": "11111111-1111-1111-1111-111111111111"
+    },
+    {
+      "id": "c9384df4-05f5-4da3-8e4f-42a8c859a311",
+      "role": "USER",
+      "charity_percentage": 12,
+      "created_at": "2026-09-21T18:08:00.680Z",
+      "updated_at": "2026-09-21T18:08:00.680Z",
+      "email": "lucas.v@example.com",
+      "password_hash": "$2b$10$zMR6LHJzq6riB.zc/zvXROyoAs/6D.UKkFulS4Fn17dQedEqMOPpW",
+      "name": "Lucas Vance",
+      "selected_charity_id": "44444444-4444-4444-4444-444444444444"
+    },
+    {
+      "id": "ae4d5939-1dad-4301-a136-567785219a23",
+      "role": "USER",
+      "charity_percentage": 18,
+      "created_at": "2026-09-21T18:08:00.684Z",
+      "updated_at": "2026-09-21T18:08:00.684Z",
+      "email": "chloe.d@example.com",
+      "password_hash": "$2b$10$zMR6LHJzq6riB.zc/zvXROyoAs/6D.UKkFulS4Fn17dQedEqMOPpW",
+      "name": "Chloe Dubois",
+      "selected_charity_id": "22222222-2222-2222-2222-222222222222"
+    },
+    {
+      "id": "ed86e56f-c817-4cbb-8bff-5bdb50792b21",
+      "role": "USER",
+      "charity_percentage": 15,
+      "created_at": "2026-09-21T18:08:00.688Z",
+      "updated_at": "2026-09-21T18:08:00.688Z",
+      "email": "taro.t@example.com",
+      "password_hash": "$2b$10$zMR6LHJzq6riB.zc/zvXROyoAs/6D.UKkFulS4Fn17dQedEqMOPpW",
+      "name": "Taro Takahashi",
+      "selected_charity_id": "33333333-3333-3333-3333-333333333333"
+    },
+    {
+      "id": "d4979890-d1e2-4e33-97a0-317a411114e4",
+      "role": "USER",
+      "charity_percentage": 10,
+      "created_at": "2026-09-21T18:08:00.691Z",
+      "updated_at": "2026-09-21T18:08:00.691Z",
+      "email": "hannah.a@example.com",
+      "password_hash": "$2b$10$zMR6LHJzq6riB.zc/zvXROyoAs/6D.UKkFulS4Fn17dQedEqMOPpW",
+      "name": "Hannah Abbott",
+      "selected_charity_id": "11111111-1111-1111-1111-111111111111"
+    },
+    {
+      "id": "e3f04915-f4d5-4e50-ac85-d990a62c25fc",
+      "role": "USER",
+      "charity_percentage": 22,
+      "created_at": "2026-09-21T18:08:00.698Z",
+      "updated_at": "2026-09-21T18:08:00.698Z",
+      "email": "liam.g@example.com",
+      "password_hash": "$2b$10$zMR6LHJzq6riB.zc/zvXROyoAs/6D.UKkFulS4Fn17dQedEqMOPpW",
+      "name": "Liam Gallagher",
+      "selected_charity_id": "44444444-4444-4444-4444-444444444444"
+    },
+    {
+      "id": "5545d497-2d40-46f5-b78f-c50c304dfd97",
+      "role": "USER",
+      "charity_percentage": 30,
+      "created_at": "2026-09-21T18:08:00.702Z",
+      "updated_at": "2026-09-21T18:08:00.702Z",
+      "email": "sophia.m@example.com",
+      "password_hash": "$2b$10$zMR6LHJzq6riB.zc/zvXROyoAs/6D.UKkFulS4Fn17dQedEqMOPpW",
+      "name": "Sophia Miller",
+      "selected_charity_id": "22222222-2222-2222-2222-222222222222"
+    },
+    {
+      "id": "3b56d343-bc1c-4132-a7a1-2ecd91541132",
+      "role": "USER",
+      "charity_percentage": 10,
+      "created_at": "2026-09-22T13:34:26.439Z",
+      "updated_at": "2026-09-22T13:34:26.440Z",
+      "email": "valid_1790084066434@example.com",
+      "name": "Valid Charity",
+      "password_hash": "hash"
+    },
+    {
+      "id": "969b1834-e5a7-4194-88bf-bfee61bf8e0e",
+      "role": "USER",
+      "charity_percentage": 10,
+      "created_at": "2026-09-22T13:34:43.387Z",
+      "updated_at": "2026-09-22T13:34:43.389Z",
+      "email": "inactive_golfer_1790084083386@example.com",
+      "password_hash": "hash",
+      "name": "Inactive Golfer"
+    },
+    {
+      "id": "c90561cc-4269-4fd6-81b4-834ca2833188",
+      "role": "USER",
+      "charity_percentage": 10,
+      "created_at": "2026-09-22T13:34:43.395Z",
+      "updated_at": "2026-09-22T13:34:43.395Z",
+      "email": "active_golfer_1790084083395@example.com",
+      "password_hash": "hash",
+      "name": "Active Golfer"
+    },
+    {
+      "id": "25687ecb-0962-4971-bf14-c7f376f5bdb8",
+      "role": "USER",
+      "charity_percentage": 17,
+      "created_at": "2026-09-22T14:08:55.178Z",
+      "updated_at": "2026-09-22T14:08:55.178Z",
+      "email": "govindkushel@gmail.com",
+      "password_hash": "$2b$10$kzJ5AjNyJReRFOwwxsh3nehxlztQkBySrP7Kej1pHQxLt/JGQVZOS",
+      "name": "Govind Kumar",
+      "selected_charity_id": "11111111-1111-1111-1111-111111111111"
+    }
+  ],
+  "subscriptions": [
+    {
+      "id": "7bd5571b-8185-494d-9b5f-ea402f303f18",
+      "user_id": "bbbbbbbb-bbbb-bbbb-bbbb-bbbbbbbbbbbb",
+      "plan_type": "MONTHLY",
+      "status": "ACTIVE",
+      "amount": 29,
+      "currency": "usd",
+      "cancel_at_period_end": false,
+      "created_at": "2026-09-21T18:08:00.665Z",
+      "updated_at": "2026-09-21T18:08:00.665Z",
+      "stripe_customer_id": "cus_test_alex123",
+      "stripe_subscription_id": "sub_test_alex123",
+      "current_period_start": "2026-09-11T18:08:00.664Z",
+      "current_period_end": "2026-10-11T18:08:00.664Z"
+    },
+    {
+      "id": "bf5c8579-962b-401d-94a8-22a65feebd6f",
+      "user_id": "ea157924-d11a-4743-a4a9-3075b47090e3",
+      "plan_type": "YEARLY",
+      "status": "ACTIVE",
+      "amount": 290,
+      "currency": "usd",
+      "cancel_at_period_end": false,
+      "created_at": "2026-09-21T18:08:00.668Z",
+      "updated_at": "2026-09-21T18:08:00.668Z",
+      "stripe_customer_id": "cus_test_0",
+      "stripe_subscription_id": "sub_test_0",
+      "current_period_start": "2026-09-21T18:08:00.668Z",
+      "current_period_end": "2026-10-21T18:08:00.668Z"
+    },
+    {
+      "id": "85a863d0-8b2d-4ad1-9aea-dec763979c26",
+      "user_id": "e17d3b7c-10c5-4f79-9da6-17a950380406",
+      "plan_type": "MONTHLY",
+      "status": "ACTIVE",
+      "amount": 29,
+      "currency": "usd",
+      "cancel_at_period_end": false,
+      "created_at": "2026-09-21T18:08:00.670Z",
+      "updated_at": "2026-09-21T18:08:00.670Z",
+      "stripe_customer_id": "cus_test_1",
+      "stripe_subscription_id": "sub_test_1",
+      "current_period_start": "2026-09-21T18:08:00.670Z",
+      "current_period_end": "2026-10-21T18:08:00.670Z"
+    },
+    {
+      "id": "de291c08-e753-4a7a-9f0a-e94c000c713f",
+      "user_id": "cad3134a-5d14-4f96-b8a6-1020f155fee4",
+      "plan_type": "MONTHLY",
+      "status": "ACTIVE",
+      "amount": 29,
+      "currency": "usd",
+      "cancel_at_period_end": false,
+      "created_at": "2026-09-21T18:08:00.673Z",
+      "updated_at": "2026-09-21T18:08:00.673Z",
+      "stripe_customer_id": "cus_test_2",
+      "stripe_subscription_id": "sub_test_2",
+      "current_period_start": "2026-09-21T18:08:00.673Z",
+      "current_period_end": "2026-10-21T18:08:00.673Z"
+    },
+    {
+      "id": "1c6fb218-3603-4d06-a11e-ed142889a923",
+      "user_id": "e3a976b2-da1e-4df4-804d-5785e80f2b50",
+      "plan_type": "YEARLY",
+      "status": "ACTIVE",
+      "amount": 290,
+      "currency": "usd",
+      "cancel_at_period_end": false,
+      "created_at": "2026-09-21T18:08:00.675Z",
+      "updated_at": "2026-09-21T18:08:00.675Z",
+      "stripe_customer_id": "cus_test_3",
+      "stripe_subscription_id": "sub_test_3",
+      "current_period_start": "2026-09-21T18:08:00.675Z",
+      "current_period_end": "2026-10-21T18:08:00.675Z"
+    },
+    {
+      "id": "b849ef86-78ed-446d-9858-4f73c788c705",
+      "user_id": "c9384df4-05f5-4da3-8e4f-42a8c859a311",
+      "plan_type": "MONTHLY",
+      "status": "ACTIVE",
+      "amount": 29,
+      "currency": "usd",
+      "cancel_at_period_end": false,
+      "created_at": "2026-09-21T18:08:00.680Z",
+      "updated_at": "2026-09-21T18:08:00.680Z",
+      "stripe_customer_id": "cus_test_4",
+      "stripe_subscription_id": "sub_test_4",
+      "current_period_start": "2026-09-21T18:08:00.680Z",
+      "current_period_end": "2026-10-21T18:08:00.680Z"
+    },
+    {
+      "id": "66c901ce-815c-487b-80ef-7c7d37e88315",
+      "user_id": "ae4d5939-1dad-4301-a136-567785219a23",
+      "plan_type": "MONTHLY",
+      "status": "ACTIVE",
+      "amount": 29,
+      "currency": "usd",
+      "cancel_at_period_end": false,
+      "created_at": "2026-09-21T18:08:00.685Z",
+      "updated_at": "2026-09-21T18:08:00.685Z",
+      "stripe_customer_id": "cus_test_5",
+      "stripe_subscription_id": "sub_test_5",
+      "current_period_start": "2026-09-21T18:08:00.684Z",
+      "current_period_end": "2026-10-21T18:08:00.684Z"
+    },
+    {
+      "id": "f1f68cc0-c4e3-45be-9609-a2c41c60453a",
+      "user_id": "ed86e56f-c817-4cbb-8bff-5bdb50792b21",
+      "plan_type": "YEARLY",
+      "status": "ACTIVE",
+      "amount": 290,
+      "currency": "usd",
+      "cancel_at_period_end": false,
+      "created_at": "2026-09-21T18:08:00.688Z",
+      "updated_at": "2026-09-21T18:08:00.688Z",
+      "stripe_customer_id": "cus_test_6",
+      "stripe_subscription_id": "sub_test_6",
+      "current_period_start": "2026-09-21T18:08:00.688Z",
+      "current_period_end": "2026-10-21T18:08:00.688Z"
+    },
+    {
+      "id": "25d30a72-152b-48c5-8ed6-ccb73403f205",
+      "user_id": "d4979890-d1e2-4e33-97a0-317a411114e4",
+      "plan_type": "MONTHLY",
+      "status": "ACTIVE",
+      "amount": 29,
+      "currency": "usd",
+      "cancel_at_period_end": false,
+      "created_at": "2026-09-21T18:08:00.691Z",
+      "updated_at": "2026-09-21T18:08:00.691Z",
+      "stripe_customer_id": "cus_test_7",
+      "stripe_subscription_id": "sub_test_7",
+      "current_period_start": "2026-09-21T18:08:00.691Z",
+      "current_period_end": "2026-10-21T18:08:00.691Z"
+    },
+    {
+      "id": "13ab396c-e545-447a-bf85-70cdf4165629",
+      "user_id": "e3f04915-f4d5-4e50-ac85-d990a62c25fc",
+      "plan_type": "MONTHLY",
+      "status": "ACTIVE",
+      "amount": 29,
+      "currency": "usd",
+      "cancel_at_period_end": false,
+      "created_at": "2026-09-21T18:08:00.698Z",
+      "updated_at": "2026-09-21T18:08:00.698Z",
+      "stripe_customer_id": "cus_test_8",
+      "stripe_subscription_id": "sub_test_8",
+      "current_period_start": "2026-09-21T18:08:00.698Z",
+      "current_period_end": "2026-10-21T18:08:00.698Z"
+    },
+    {
+      "id": "5de322fb-0380-409f-97cf-ee34319e6c6e",
+      "user_id": "5545d497-2d40-46f5-b78f-c50c304dfd97",
+      "plan_type": "YEARLY",
+      "status": "ACTIVE",
+      "amount": 290,
+      "currency": "usd",
+      "cancel_at_period_end": false,
+      "created_at": "2026-09-21T18:08:00.702Z",
+      "updated_at": "2026-09-21T18:08:00.702Z",
+      "stripe_customer_id": "cus_test_9",
+      "stripe_subscription_id": "sub_test_9",
+      "current_period_start": "2026-09-21T18:08:00.702Z",
+      "current_period_end": "2026-10-21T18:08:00.702Z"
+    },
+    {
+      "id": "643cfa1b-55e4-4f3e-8e0c-0f5e62dc10c0",
+      "user_id": "c90561cc-4269-4fd6-81b4-834ca2833188",
+      "plan_type": "MONTHLY",
+      "status": "ACTIVE",
+      "amount": 29,
+      "currency": "usd",
+      "cancel_at_period_end": false,
+      "created_at": "2026-09-22T13:34:43.396Z",
+      "updated_at": "2026-09-22T13:34:43.396Z"
+    },
+    {
+      "id": "11ad0fa3-f369-4d3c-af94-f5664ab4698a",
+      "user_id": "25687ecb-0962-4971-bf14-c7f376f5bdb8",
+      "plan_type": "MONTHLY",
+      "status": "ACTIVE",
+      "amount": 29,
+      "currency": "usd",
+      "cancel_at_period_end": false,
+      "created_at": "2026-09-22T14:08:55.183Z",
+      "updated_at": "2026-09-22T14:09:07.554Z",
+      "stripe_customer_id": "cus_sim_1790086147554",
+      "stripe_subscription_id": "sub_sim_1790086147554",
+      "current_period_start": "2026-09-22T14:09:07.554Z",
+      "current_period_end": "2026-10-22T14:09:07.554Z"
+    }
+  ],
+  "charities": [
+    {
+      "id": "11111111-1111-1111-1111-111111111111",
+      "upcoming_events": [
+        {
+          "title": "Annual Youth Invitational Charity Day",
+          "date": "2026-10-15",
+          "location": "Pine Valley, NJ"
+        }
+      ],
+      "is_active": true,
+      "is_featured": true,
+      "created_at": "2026-09-21T18:08:00.471Z",
+      "updated_at": "2026-09-21T18:08:00.472Z",
+      "name": "Youth On Course Global",
+      "slug": "youth-on-course-global",
+      "description": "Providing life-changing opportunities, mentorship, and youth leadership training through athletic participation and STEM scholarships.",
+      "category": "Youth & Education",
+      "logo_url": "https://images.unsplash.com/photo-1544717305-2782549b5136?w=200&auto=format&fit=crop&q=80",
+      "cover_url": "https://images.unsplash.com/photo-1517649763962-0c623266ddc0?w=1000&auto=format&fit=crop&q=80",
+      "website_url": "https://youthoncourse.org"
+    },
+    {
+      "id": "22222222-2222-2222-2222-222222222222",
+      "upcoming_events": [
+        {
+          "title": "Coastal Cleanup & Scramble for Clean Waters",
+          "date": "2026-11-04",
+          "location": "Monterey Bay, CA"
+        }
+      ],
+      "is_active": true,
+      "is_featured": true,
+      "created_at": "2026-09-21T18:08:00.473Z",
+      "updated_at": "2026-09-21T18:08:00.473Z",
+      "name": "Ocean Clean Impact",
+      "slug": "ocean-clean-impact",
+      "description": "Recovering ocean plastic, restoring fragile coastal habitats, and turning recycled marine materials into sustainable athletic community gear.",
+      "category": "Environment & Oceans",
+      "logo_url": "https://images.unsplash.com/photo-1518837695005-2083093ee35b?w=200&auto=format&fit=crop&q=80",
+      "cover_url": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=1000&auto=format&fit=crop&q=80",
+      "website_url": "https://theoceancleanup.com"
+    },
+    {
+      "id": "33333333-3333-3333-3333-333333333333",
+      "upcoming_events": [
+        {
+          "title": "Veterans Warrior Scramble",
+          "date": "2026-11-11",
+          "location": "San Antonio, TX"
+        }
+      ],
+      "is_active": true,
+      "is_featured": false,
+      "created_at": "2026-09-21T18:08:00.473Z",
+      "updated_at": "2026-09-21T18:08:00.473Z",
+      "name": "Adaptive Heroes Veteran Fund",
+      "slug": "adaptive-heroes-veteran-fund",
+      "description": "Empowering wounded and recovering service veterans with cutting-edge adaptive athletic prosthetics, rehabilitation, and sports recovery retreats.",
+      "category": "Veteran Support",
+      "logo_url": "https://images.unsplash.com/photo-1579684385127-1ef15d508118?w=200&auto=format&fit=crop&q=80",
+      "cover_url": "https://images.unsplash.com/photo-1461896836934-ffe607ba8211?w=1000&auto=format&fit=crop&q=80",
+      "website_url": "https://woundedwarriorproject.org"
+    },
+    {
+      "id": "44444444-4444-4444-4444-444444444444",
+      "upcoming_events": [],
+      "is_active": true,
+      "is_featured": false,
+      "created_at": "2026-09-21T18:08:00.474Z",
+      "updated_at": "2026-09-21T18:08:00.474Z",
+      "name": "Green Sanctuary Wildlife Trust",
+      "slug": "green-sanctuary-wildlife-trust",
+      "description": "Transforming outdoor public spaces and municipal grounds into biodiversity corridors and native bird protection reserves.",
+      "category": "Wildlife & Nature",
+      "logo_url": "https://images.unsplash.com/photo-1535083783855-76ae62b2914e?w=200&auto=format&fit=crop&q=80",
+      "cover_url": "https://images.unsplash.com/photo-1448375240586-882707db888b?w=1000&auto=format&fit=crop&q=80",
+      "website_url": "https://worldwildlife.org"
+    }
+  ],
+  "scores": [
+    {
+      "id": "dbe67699-3607-43c0-b418-111b938e2070",
+      "user_id": "bbbbbbbb-bbbb-bbbb-bbbb-bbbbbbbbbbbb",
+      "score": 40,
+      "score_date": "2026-09-08",
+      "created_at": "2026-09-21T18:08:00.666Z"
+    },
+    {
+      "id": "e0e9c458-62ad-41d5-91b1-8e87bdec5803",
+      "user_id": "bbbbbbbb-bbbb-bbbb-bbbb-bbbbbbbbbbbb",
+      "score": 36,
+      "score_date": "2026-09-12",
+      "created_at": "2026-09-21T18:08:00.666Z"
+    },
+    {
+      "id": "5fa9aae2-92bf-489a-804c-02d328e66dd1",
+      "user_id": "bbbbbbbb-bbbb-bbbb-bbbb-bbbbbbbbbbbb",
+      "score": 32,
+      "score_date": "2026-09-15",
+      "created_at": "2026-09-21T18:08:00.667Z"
+    },
+    {
+      "id": "f83300ac-949d-40e1-ac73-ec0c24d2da33",
+      "user_id": "bbbbbbbb-bbbb-bbbb-bbbb-bbbbbbbbbbbb",
+      "score": 41,
+      "score_date": "2026-09-17",
+      "created_at": "2026-09-21T18:08:00.667Z"
+    },
+    {
+      "id": "b565cea5-e40e-4107-a669-2b2e2d9b04b1",
+      "user_id": "bbbbbbbb-bbbb-bbbb-bbbb-bbbbbbbbbbbb",
+      "score": 38,
+      "score_date": "2026-09-20",
+      "created_at": "2026-09-21T18:08:00.667Z"
+    },
+    {
+      "id": "c5dd0218-6b3b-47d6-9b48-88990d66ec99",
+      "user_id": "ea157924-d11a-4743-a4a9-3075b47090e3",
+      "score": 35,
+      "score_date": "2026-09-10",
+      "created_at": "2026-09-21T18:08:00.668Z"
+    },
+    {
+      "id": "cb223a45-3829-49dc-83e1-05b20627f119",
+      "user_id": "ea157924-d11a-4743-a4a9-3075b47090e3",
+      "score": 29,
+      "score_date": "2026-09-12",
+      "created_at": "2026-09-21T18:08:00.669Z"
+    },
+    {
+      "id": "cc214de5-b8d2-4c97-97d5-5c2ecccc8c5c",
+      "user_id": "ea157924-d11a-4743-a4a9-3075b47090e3",
+      "score": 38,
+      "score_date": "2026-09-14",
+      "created_at": "2026-09-21T18:08:00.669Z"
+    },
+    {
+      "id": "981678d0-d373-4315-a5ea-90ab2893b2bf",
+      "user_id": "ea157924-d11a-4743-a4a9-3075b47090e3",
+      "score": 42,
+      "score_date": "2026-09-16",
+      "created_at": "2026-09-21T18:08:00.669Z"
+    },
+    {
+      "id": "36ba0626-77d3-4a86-89bf-4b3ea9ad4d75",
+      "user_id": "ea157924-d11a-4743-a4a9-3075b47090e3",
+      "score": 31,
+      "score_date": "2026-09-18",
+      "created_at": "2026-09-21T18:08:00.670Z"
+    },
+    {
+      "id": "5fbe5e8d-f55a-40aa-90c9-cd37ba1670ac",
+      "user_id": "e17d3b7c-10c5-4f79-9da6-17a950380406",
+      "score": 41,
+      "score_date": "2026-09-10",
+      "created_at": "2026-09-21T18:08:00.671Z"
+    },
+    {
+      "id": "be1539f7-fd7f-4e4a-8a03-3371914314dd",
+      "user_id": "e17d3b7c-10c5-4f79-9da6-17a950380406",
+      "score": 36,
+      "score_date": "2026-09-12",
+      "created_at": "2026-09-21T18:08:00.671Z"
+    },
+    {
+      "id": "a6b8cfb7-baaf-4359-b116-61a50e76ae59",
+      "user_id": "e17d3b7c-10c5-4f79-9da6-17a950380406",
+      "score": 39,
+      "score_date": "2026-09-14",
+      "created_at": "2026-09-21T18:08:00.672Z"
+    },
+    {
+      "id": "0dbe6f01-7acb-4aa0-9206-9fc253b9f50b",
+      "user_id": "e17d3b7c-10c5-4f79-9da6-17a950380406",
+      "score": 34,
+      "score_date": "2026-09-16",
+      "created_at": "2026-09-21T18:08:00.672Z"
+    },
+    {
+      "id": "e7b036ee-dc78-467a-8063-4a5ddd35b04a",
+      "user_id": "e17d3b7c-10c5-4f79-9da6-17a950380406",
+      "score": 38,
+      "score_date": "2026-09-18",
+      "created_at": "2026-09-21T18:08:00.672Z"
+    },
+    {
+      "id": "c6e6d034-cf89-470e-bb7a-5df03eabed9e",
+      "user_id": "cad3134a-5d14-4f96-b8a6-1020f155fee4",
+      "score": 28,
+      "score_date": "2026-09-10",
+      "created_at": "2026-09-21T18:08:00.674Z"
+    },
+    {
+      "id": "db8ad3d7-cea4-47ab-8349-3f9d3390ed3a",
+      "user_id": "cad3134a-5d14-4f96-b8a6-1020f155fee4",
+      "score": 33,
+      "score_date": "2026-09-12",
+      "created_at": "2026-09-21T18:08:00.674Z"
+    },
+    {
+      "id": "bf74867e-716f-43c8-b9d1-c29f4a886d6a",
+      "user_id": "cad3134a-5d14-4f96-b8a6-1020f155fee4",
+      "score": 36,
+      "score_date": "2026-09-14",
+      "created_at": "2026-09-21T18:08:00.674Z"
+    },
+    {
+      "id": "71cc92e3-272c-42aa-9a59-908f66189273",
+      "user_id": "cad3134a-5d14-4f96-b8a6-1020f155fee4",
+      "score": 40,
+      "score_date": "2026-09-16",
+      "created_at": "2026-09-21T18:08:00.674Z"
+    },
+    {
+      "id": "815674f7-41e2-4af1-b7f9-339ce307baa8",
+      "user_id": "cad3134a-5d14-4f96-b8a6-1020f155fee4",
+      "score": 37,
+      "score_date": "2026-09-18",
+      "created_at": "2026-09-21T18:08:00.675Z"
+    },
+    {
+      "id": "9e56dcae-585f-4e96-9fcc-a5b0a4ddbd2f",
+      "user_id": "e3a976b2-da1e-4df4-804d-5785e80f2b50",
+      "score": 39,
+      "score_date": "2026-09-10",
+      "created_at": "2026-09-21T18:08:00.676Z"
+    },
+    {
+      "id": "50d8aabf-6441-497e-8a23-c4cc2b65445a",
+      "user_id": "e3a976b2-da1e-4df4-804d-5785e80f2b50",
+      "score": 44,
+      "score_date": "2026-09-12",
+      "created_at": "2026-09-21T18:08:00.676Z"
+    },
+    {
+      "id": "f959800b-7049-41e2-8ddb-03ea63183ab2",
+      "user_id": "e3a976b2-da1e-4df4-804d-5785e80f2b50",
+      "score": 32,
+      "score_date": "2026-09-14",
+      "created_at": "2026-09-21T18:08:00.677Z"
+    },
+    {
+      "id": "cdc651ae-59f4-4017-93be-efb7569c211c",
+      "user_id": "e3a976b2-da1e-4df4-804d-5785e80f2b50",
+      "score": 35,
+      "score_date": "2026-09-16",
+      "created_at": "2026-09-21T18:08:00.678Z"
+    },
+    {
+      "id": "73d2e307-94e5-479a-a66f-cb43387afe55",
+      "user_id": "e3a976b2-da1e-4df4-804d-5785e80f2b50",
+      "score": 41,
+      "score_date": "2026-09-18",
+      "created_at": "2026-09-21T18:08:00.679Z"
+    },
+    {
+      "id": "41284e21-3bcc-49de-8e0b-fabda3a9f7c7",
+      "user_id": "c9384df4-05f5-4da3-8e4f-42a8c859a311",
+      "score": 30,
+      "score_date": "2026-09-10",
+      "created_at": "2026-09-21T18:08:00.681Z"
+    },
+    {
+      "id": "a36aa699-2606-420f-a1c3-577712751630",
+      "user_id": "c9384df4-05f5-4da3-8e4f-42a8c859a311",
+      "score": 36,
+      "score_date": "2026-09-12",
+      "created_at": "2026-09-21T18:08:00.681Z"
+    },
+    {
+      "id": "fad2f591-dc82-4aef-8cdc-83bc2acdb1e1",
+      "user_id": "c9384df4-05f5-4da3-8e4f-42a8c859a311",
+      "score": 38,
+      "score_date": "2026-09-14",
+      "created_at": "2026-09-21T18:08:00.682Z"
+    },
+    {
+      "id": "c8f91c13-bb39-466a-904e-abcc4b741beb",
+      "user_id": "c9384df4-05f5-4da3-8e4f-42a8c859a311",
+      "score": 41,
+      "score_date": "2026-09-16",
+      "created_at": "2026-09-21T18:08:00.683Z"
+    },
+    {
+      "id": "2a00831f-b09f-403a-9774-f2685935d121",
+      "user_id": "c9384df4-05f5-4da3-8e4f-42a8c859a311",
+      "score": 34,
+      "score_date": "2026-09-18",
+      "created_at": "2026-09-21T18:08:00.683Z"
+    },
+    {
+      "id": "57a582be-c6ca-4cc7-8b1e-4f5df15bfdf0",
+      "user_id": "ae4d5939-1dad-4301-a136-567785219a23",
+      "score": 42,
+      "score_date": "2026-09-10",
+      "created_at": "2026-09-21T18:08:00.686Z"
+    },
+    {
+      "id": "f98b8152-e7d4-451a-a6b3-da23554d056f",
+      "user_id": "ae4d5939-1dad-4301-a136-567785219a23",
+      "score": 37,
+      "score_date": "2026-09-12",
+      "created_at": "2026-09-21T18:08:00.686Z"
+    },
+    {
+      "id": "0c90339e-d3fd-4f88-88d0-3fe044f94c4e",
+      "user_id": "ae4d5939-1dad-4301-a136-567785219a23",
+      "score": 35,
+      "score_date": "2026-09-14",
+      "created_at": "2026-09-21T18:08:00.687Z"
+    },
+    {
+      "id": "817765c5-b794-4171-a6db-23bf0d3e4f98",
+      "user_id": "ae4d5939-1dad-4301-a136-567785219a23",
+      "score": 31,
+      "score_date": "2026-09-16",
+      "created_at": "2026-09-21T18:08:00.687Z"
+    },
+    {
+      "id": "71c97723-1a51-43ce-997c-e20556b25bba",
+      "user_id": "ae4d5939-1dad-4301-a136-567785219a23",
+      "score": 39,
+      "score_date": "2026-09-18",
+      "created_at": "2026-09-21T18:08:00.687Z"
+    },
+    {
+      "id": "c77b2119-0d89-4ffc-a1c9-2484c12ec9fd",
+      "user_id": "ed86e56f-c817-4cbb-8bff-5bdb50792b21",
+      "score": 33,
+      "score_date": "2026-09-10",
+      "created_at": "2026-09-21T18:08:00.689Z"
+    },
+    {
+      "id": "0d080d4b-d67e-471c-8372-ea89c14bc7da",
+      "user_id": "ed86e56f-c817-4cbb-8bff-5bdb50792b21",
+      "score": 40,
+      "score_date": "2026-09-12",
+      "created_at": "2026-09-21T18:08:00.689Z"
+    },
+    {
+      "id": "26afea56-455a-40e6-a0e7-ff9918fd4ec8",
+      "user_id": "ed86e56f-c817-4cbb-8bff-5bdb50792b21",
+      "score": 36,
+      "score_date": "2026-09-14",
+      "created_at": "2026-09-21T18:08:00.690Z"
+    },
+    {
+      "id": "896e1522-663b-4e8b-8b30-25f719feb156",
+      "user_id": "ed86e56f-c817-4cbb-8bff-5bdb50792b21",
+      "score": 38,
+      "score_date": "2026-09-16",
+      "created_at": "2026-09-21T18:08:00.690Z"
+    },
+    {
+      "id": "d1714fba-e90b-44b9-aaa2-553425d06f94",
+      "user_id": "ed86e56f-c817-4cbb-8bff-5bdb50792b21",
+      "score": 43,
+      "score_date": "2026-09-18",
+      "created_at": "2026-09-21T18:08:00.691Z"
+    },
+    {
+      "id": "fb6a3286-1835-42c8-b672-c4425c616ee1",
+      "user_id": "d4979890-d1e2-4e33-97a0-317a411114e4",
+      "score": 31,
+      "score_date": "2026-09-10",
+      "created_at": "2026-09-21T18:08:00.692Z"
+    },
+    {
+      "id": "b4f1125b-a2b8-4d6c-a008-d2ad1aa0b010",
+      "user_id": "d4979890-d1e2-4e33-97a0-317a411114e4",
+      "score": 35,
+      "score_date": "2026-09-12",
+      "created_at": "2026-09-21T18:08:00.693Z"
+    },
+    {
+      "id": "cd2936c5-3755-4a8a-ab21-e2700c4b21f9",
+      "user_id": "d4979890-d1e2-4e33-97a0-317a411114e4",
+      "score": 38,
+      "score_date": "2026-09-14",
+      "created_at": "2026-09-21T18:08:00.693Z"
+    },
+    {
+      "id": "557df389-74e6-4aaa-b6e8-041b4fc85eec",
+      "user_id": "d4979890-d1e2-4e33-97a0-317a411114e4",
+      "score": 40,
+      "score_date": "2026-09-16",
+      "created_at": "2026-09-21T18:08:00.695Z"
+    },
+    {
+      "id": "58bf7c32-e255-4f9a-8e39-87ce56beeaf3",
+      "user_id": "d4979890-d1e2-4e33-97a0-317a411114e4",
+      "score": 36,
+      "score_date": "2026-09-18",
+      "created_at": "2026-09-21T18:08:00.696Z"
+    },
+    {
+      "id": "3d73c8d9-fb5c-426f-8229-09c0b33e1484",
+      "user_id": "e3f04915-f4d5-4e50-ac85-d990a62c25fc",
+      "score": 36,
+      "score_date": "2026-09-10",
+      "created_at": "2026-09-21T18:08:00.700Z"
+    },
+    {
+      "id": "d9cc70e6-4b39-46e6-9d17-f3030ec9f442",
+      "user_id": "e3f04915-f4d5-4e50-ac85-d990a62c25fc",
+      "score": 38,
+      "score_date": "2026-09-12",
+      "created_at": "2026-09-21T18:08:00.700Z"
+    },
+    {
+      "id": "7523e4b2-e467-45c4-8346-bcd0ee4edb0c",
+      "user_id": "e3f04915-f4d5-4e50-ac85-d990a62c25fc",
+      "score": 41,
+      "score_date": "2026-09-14",
+      "created_at": "2026-09-21T18:08:00.701Z"
+    },
+    {
+      "id": "c189192f-7fed-459d-a969-1c81d69ba2fb",
+      "user_id": "e3f04915-f4d5-4e50-ac85-d990a62c25fc",
+      "score": 32,
+      "score_date": "2026-09-16",
+      "created_at": "2026-09-21T18:08:00.701Z"
+    },
+    {
+      "id": "286bf1c1-7879-4b09-be5e-71c8b7aaa327",
+      "user_id": "e3f04915-f4d5-4e50-ac85-d990a62c25fc",
+      "score": 29,
+      "score_date": "2026-09-18",
+      "created_at": "2026-09-21T18:08:00.702Z"
+    },
+    {
+      "id": "447eadde-b164-4d51-a2f7-973d5cc0eacd",
+      "user_id": "5545d497-2d40-46f5-b78f-c50c304dfd97",
+      "score": 37,
+      "score_date": "2026-09-10",
+      "created_at": "2026-09-21T18:08:00.703Z"
+    },
+    {
+      "id": "215e8bcc-e0b1-4243-bdba-f0a8af6a9cfe",
+      "user_id": "5545d497-2d40-46f5-b78f-c50c304dfd97",
+      "score": 41,
+      "score_date": "2026-09-12",
+      "created_at": "2026-09-21T18:08:00.704Z"
+    },
+    {
+      "id": "869c393a-04b4-4748-a749-81651e70f460",
+      "user_id": "5545d497-2d40-46f5-b78f-c50c304dfd97",
+      "score": 36,
+      "score_date": "2026-09-14",
+      "created_at": "2026-09-21T18:08:00.704Z"
+    },
+    {
+      "id": "9beb6827-7d80-4985-9161-c7ac07c54c41",
+      "user_id": "5545d497-2d40-46f5-b78f-c50c304dfd97",
+      "score": 39,
+      "score_date": "2026-09-16",
+      "created_at": "2026-09-21T18:08:00.704Z"
+    },
+    {
+      "id": "135459af-2f71-4040-8e5f-a250545f5d7a",
+      "user_id": "5545d497-2d40-46f5-b78f-c50c304dfd97",
+      "score": 40,
+      "score_date": "2026-09-18",
+      "created_at": "2026-09-21T18:08:00.705Z"
+    },
+    {
+      "id": "e06194a3-f15f-4f1a-b6ff-aa406b6be674",
+      "user_id": "range_user_1790084066447",
+      "score": 1,
+      "score_date": "2026-09-01",
+      "created_at": "2026-09-22T13:34:26.447Z"
+    },
+    {
+      "id": "d469d71c-dc06-4971-a59e-e2d55b4ab026",
+      "user_id": "range_user_1790084066447",
+      "score": 45,
+      "score_date": "2026-09-02",
+      "created_at": "2026-09-22T13:34:26.448Z"
+    },
+    {
+      "id": "7add89bf-97e5-4d3a-a195-13f95f3c4976",
+      "user_id": "date_user_1790084066449",
+      "score": 36,
+      "score_date": "2026-09-10",
+      "created_at": "2026-09-22T13:34:26.449Z"
+    },
+    {
+      "id": "7756f6eb-95a1-4438-a877-4cf6d28cb219",
+      "user_id": "rolling_user_1790084066451",
+      "score": 36,
+      "score_date": "2026-09-12",
+      "created_at": "2026-09-22T13:34:26.451Z"
+    },
+    {
+      "id": "af476e51-5a37-4dc1-981d-093a52aba084",
+      "user_id": "rolling_user_1790084066451",
+      "score": 32,
+      "score_date": "2026-09-15",
+      "created_at": "2026-09-22T13:34:26.452Z"
+    },
+    {
+      "id": "131d4345-0139-46bd-a806-078cf59843c0",
+      "user_id": "rolling_user_1790084066451",
+      "score": 41,
+      "score_date": "2026-09-17",
+      "created_at": "2026-09-22T13:34:26.453Z"
+    },
+    {
+      "id": "56a43d69-7185-4803-98b9-94ce8a479f5e",
+      "user_id": "rolling_user_1790084066451",
+      "score": 38,
+      "score_date": "2026-09-20",
+      "created_at": "2026-09-22T13:34:26.453Z"
+    },
+    {
+      "id": "7c8076d8-9bfd-4195-a3a3-b4cff1b30dab",
+      "user_id": "rolling_user_1790084066451",
+      "score": 35,
+      "score_date": "2026-09-22",
+      "created_at": "2026-09-22T13:34:26.459Z"
+    },
+    {
+      "id": "8dab1dfa-c350-4e98-9b2a-183530bf7b6b",
+      "user_id": "c90561cc-4269-4fd6-81b4-834ca2833188",
+      "score": 36,
+      "score_date": "2026-09-12",
+      "created_at": "2026-09-22T13:34:44.142Z"
+    },
+    {
+      "id": "214e2b1a-9181-407e-9f40-4a5911defc90",
+      "user_id": "c90561cc-4269-4fd6-81b4-834ca2833188",
+      "score": 32,
+      "score_date": "2026-09-15",
+      "created_at": "2026-09-22T13:34:44.153Z"
+    },
+    {
+      "id": "4f2e69b5-776c-4c76-bbfe-647a1f55b4bf",
+      "user_id": "c90561cc-4269-4fd6-81b4-834ca2833188",
+      "score": 41,
+      "score_date": "2026-09-17",
+      "created_at": "2026-09-22T13:34:44.160Z"
+    },
+    {
+      "id": "4f5c0de2-9bdf-47de-9c3f-78964c1a5548",
+      "user_id": "c90561cc-4269-4fd6-81b4-834ca2833188",
+      "score": 38,
+      "score_date": "2026-09-20",
+      "created_at": "2026-09-22T13:34:44.168Z"
+    }
+  ],
+  "draws": [
+    {
+      "id": "55555555-5555-5555-5555-555555555555",
+      "winning_numbers": [],
+      "status": "DRAFT",
+      "rollover_from_previous": 1500,
+      "algorithm_metadata": {
+        "description": "Weighted by community score frequency with Laplace smoothing"
+      },
+      "created_at": "2026-09-21T18:08:00.706Z",
+      "updated_at": "2026-09-21T18:08:00.706Z",
+      "draw_code": "DRAW-2026-09",
+      "draw_month": "2026-09-30",
+      "draw_type": "ALGORITHMIC"
+    }
+  ],
+  "prize_pools": [
+    {
+      "id": "1cbb9a0d-6e31-4024-8c4e-0f4fdf9a28b5",
+      "draw_id": "55555555-5555-5555-5555-555555555555",
+      "total_revenue": 319,
+      "total_pool": 1659.5,
+      "tier_5_pool": 1563.8,
+      "tier_4_pool": 55.824999999999996,
+      "tier_3_pool": 39.875,
+      "rolled_over_amount": 0,
+      "total_eligible_subscribers": 11,
+      "created_at": "2026-09-21T18:08:00.706Z"
+    }
+  ],
+  "draw_entries": [
+    {
+      "id": "f2dec63d-5945-4eb5-a88f-286254fd2bed",
+      "draw_id": "55555555-5555-5555-5555-555555555555",
+      "user_id": "bbbbbbbb-bbbb-bbbb-bbbb-bbbbbbbbbbbb",
+      "numbers": [
+        38,
+        41,
+        32,
+        36,
+        40
+      ],
+      "match_count": 0,
+      "created_at": "2026-09-21T18:08:00.707Z"
+    },
+    {
+      "id": "55de4841-13f5-49fa-a132-e2efce0eb1a0",
+      "draw_id": "55555555-5555-5555-5555-555555555555",
+      "user_id": "ea157924-d11a-4743-a4a9-3075b47090e3",
+      "numbers": [
+        31,
+        42,
+        38,
+        29,
+        35
+      ],
+      "match_count": 0,
+      "created_at": "2026-09-21T18:08:00.708Z"
+    },
+    {
+      "id": "a9e71596-d6b3-4f71-80fb-64be75398016",
+      "draw_id": "55555555-5555-5555-5555-555555555555",
+      "user_id": "e17d3b7c-10c5-4f79-9da6-17a950380406",
+      "numbers": [
+        38,
+        34,
+        39,
+        36,
+        41
+      ],
+      "match_count": 0,
+      "created_at": "2026-09-21T18:08:00.708Z"
+    },
+    {
+      "id": "e1f2084a-ba9c-46c6-bbe9-3f73e6ea1307",
+      "draw_id": "55555555-5555-5555-5555-555555555555",
+      "user_id": "cad3134a-5d14-4f96-b8a6-1020f155fee4",
+      "numbers": [
+        37,
+        40,
+        36,
+        33,
+        28
+      ],
+      "match_count": 0,
+      "created_at": "2026-09-21T18:08:00.709Z"
+    },
+    {
+      "id": "a14bf822-6c80-4888-b22a-93fa5d4ea037",
+      "draw_id": "55555555-5555-5555-5555-555555555555",
+      "user_id": "e3a976b2-da1e-4df4-804d-5785e80f2b50",
+      "numbers": [
+        41,
+        35,
+        32,
+        44,
+        39
+      ],
+      "match_count": 0,
+      "created_at": "2026-09-21T18:08:00.709Z"
+    },
+    {
+      "id": "9e94b5af-87b1-4cec-ba91-7e65c47d3aa3",
+      "draw_id": "55555555-5555-5555-5555-555555555555",
+      "user_id": "c9384df4-05f5-4da3-8e4f-42a8c859a311",
+      "numbers": [
+        34,
+        41,
+        38,
+        36,
+        30
+      ],
+      "match_count": 0,
+      "created_at": "2026-09-21T18:08:00.709Z"
+    },
+    {
+      "id": "2a2f21cc-372c-4585-8aa9-d05183b7774e",
+      "draw_id": "55555555-5555-5555-5555-555555555555",
+      "user_id": "ae4d5939-1dad-4301-a136-567785219a23",
+      "numbers": [
+        39,
+        31,
+        35,
+        37,
+        42
+      ],
+      "match_count": 0,
+      "created_at": "2026-09-21T18:08:00.710Z"
+    },
+    {
+      "id": "90d70fbf-7702-428f-9fdd-010af6b1bf21",
+      "draw_id": "55555555-5555-5555-5555-555555555555",
+      "user_id": "ed86e56f-c817-4cbb-8bff-5bdb50792b21",
+      "numbers": [
+        43,
+        38,
+        36,
+        40,
+        33
+      ],
+      "match_count": 0,
+      "created_at": "2026-09-21T18:08:00.710Z"
+    },
+    {
+      "id": "98c98480-fabc-4854-8a77-3c1c7cff2207",
+      "draw_id": "55555555-5555-5555-5555-555555555555",
+      "user_id": "d4979890-d1e2-4e33-97a0-317a411114e4",
+      "numbers": [
+        36,
+        40,
+        38,
+        35,
+        31
+      ],
+      "match_count": 0,
+      "created_at": "2026-09-21T18:08:00.711Z"
+    },
+    {
+      "id": "171b8871-3a88-4369-aa6d-b4ac55f2621a",
+      "draw_id": "55555555-5555-5555-5555-555555555555",
+      "user_id": "e3f04915-f4d5-4e50-ac85-d990a62c25fc",
+      "numbers": [
+        29,
+        32,
+        41,
+        38,
+        36
+      ],
+      "match_count": 0,
+      "created_at": "2026-09-21T18:08:00.712Z"
+    },
+    {
+      "id": "0aa65ca5-ff2e-4740-a012-64eb9605607f",
+      "draw_id": "55555555-5555-5555-5555-555555555555",
+      "user_id": "5545d497-2d40-46f5-b78f-c50c304dfd97",
+      "numbers": [
+        40,
+        39,
+        36,
+        41,
+        37
+      ],
+      "match_count": 0,
+      "created_at": "2026-09-21T18:08:00.712Z"
+    },
+    {
+      "id": "2d03dd4d-97f1-4031-904a-13ee01151acb",
+      "draw_id": "55555555-5555-5555-5555-555555555555",
+      "user_id": "c90561cc-4269-4fd6-81b4-834ca2833188",
+      "numbers": [
+        42,
+        38,
+        41,
+        32,
+        36
+      ],
+      "match_count": 0,
+      "created_at": "2026-09-22T13:34:44.169Z"
+    }
+  ],
+  "winners": [],
+  "charity_contributions": [
+    {
+      "id": "4e05ddd9-4211-48d7-a34f-66c40c08b846",
+      "created_at": "2026-09-21T18:08:00.665Z",
+      "user_id": "bbbbbbbb-bbbb-bbbb-bbbb-bbbbbbbbbbbb",
+      "charity_id": "22222222-2222-2222-2222-222222222222",
+      "amount": 5.8,
+      "contribution_percentage": 20,
+      "contribution_type": "SUBSCRIPTION_SHARE"
+    },
+    {
+      "id": "4313a2c2-fdef-472c-a3f5-b7ca16b7f4cb",
+      "created_at": "2026-09-21T18:08:00.668Z",
+      "user_id": "ea157924-d11a-4743-a4a9-3075b47090e3",
+      "charity_id": "11111111-1111-1111-1111-111111111111",
+      "amount": 43.5,
+      "contribution_percentage": 15,
+      "contribution_type": "SUBSCRIPTION_SHARE"
+    },
+    {
+      "id": "144dfe0b-2ad0-4e80-9350-a81c2d2d8ed6",
+      "created_at": "2026-09-21T18:08:00.671Z",
+      "user_id": "e17d3b7c-10c5-4f79-9da6-17a950380406",
+      "charity_id": "22222222-2222-2222-2222-222222222222",
+      "amount": 7.25,
+      "contribution_percentage": 25,
+      "contribution_type": "SUBSCRIPTION_SHARE"
+    },
+    {
+      "id": "370a3163-a1de-4f09-a89a-9ae1cb8942a5",
+      "created_at": "2026-09-21T18:08:00.673Z",
+      "user_id": "cad3134a-5d14-4f96-b8a6-1020f155fee4",
+      "charity_id": "33333333-3333-3333-3333-333333333333",
+      "amount": 2.9,
+      "contribution_percentage": 10,
+      "contribution_type": "SUBSCRIPTION_SHARE"
+    },
+    {
+      "id": "c7fb249d-b567-43fe-b37f-8335590d3dd7",
+      "created_at": "2026-09-21T18:08:00.676Z",
+      "user_id": "e3a976b2-da1e-4df4-804d-5785e80f2b50",
+      "charity_id": "11111111-1111-1111-1111-111111111111",
+      "amount": 58,
+      "contribution_percentage": 20,
+      "contribution_type": "SUBSCRIPTION_SHARE"
+    },
+    {
+      "id": "06da7198-5dd8-41e3-b879-cdb8f7d8d748",
+      "created_at": "2026-09-21T18:08:00.680Z",
+      "user_id": "c9384df4-05f5-4da3-8e4f-42a8c859a311",
+      "charity_id": "44444444-4444-4444-4444-444444444444",
+      "amount": 3.48,
+      "contribution_percentage": 12,
+      "contribution_type": "SUBSCRIPTION_SHARE"
+    },
+    {
+      "id": "9fc0ff0f-7e2a-49dd-b71b-bcdc29275bf6",
+      "created_at": "2026-09-21T18:08:00.685Z",
+      "user_id": "ae4d5939-1dad-4301-a136-567785219a23",
+      "charity_id": "22222222-2222-2222-2222-222222222222",
+      "amount": 5.22,
+      "contribution_percentage": 18,
+      "contribution_type": "SUBSCRIPTION_SHARE"
+    },
+    {
+      "id": "752960e9-1c74-46ff-a4e1-797f8042bca9",
+      "created_at": "2026-09-21T18:08:00.689Z",
+      "user_id": "ed86e56f-c817-4cbb-8bff-5bdb50792b21",
+      "charity_id": "33333333-3333-3333-3333-333333333333",
+      "amount": 43.5,
+      "contribution_percentage": 15,
+      "contribution_type": "SUBSCRIPTION_SHARE"
+    },
+    {
+      "id": "07138f48-2358-4f33-92e9-034534a8cdef",
+      "created_at": "2026-09-21T18:08:00.692Z",
+      "user_id": "d4979890-d1e2-4e33-97a0-317a411114e4",
+      "charity_id": "11111111-1111-1111-1111-111111111111",
+      "amount": 2.9,
+      "contribution_percentage": 10,
+      "contribution_type": "SUBSCRIPTION_SHARE"
+    },
+    {
+      "id": "811ef01d-4076-41f0-b15f-eeab295a2b25",
+      "created_at": "2026-09-21T18:08:00.699Z",
+      "user_id": "e3f04915-f4d5-4e50-ac85-d990a62c25fc",
+      "charity_id": "44444444-4444-4444-4444-444444444444",
+      "amount": 6.38,
+      "contribution_percentage": 22,
+      "contribution_type": "SUBSCRIPTION_SHARE"
+    },
+    {
+      "id": "53ed9032-f727-4e93-a5b3-f9f644f09892",
+      "created_at": "2026-09-21T18:08:00.703Z",
+      "user_id": "5545d497-2d40-46f5-b78f-c50c304dfd97",
+      "charity_id": "22222222-2222-2222-2222-222222222222",
+      "amount": 87,
+      "contribution_percentage": 30,
+      "contribution_type": "SUBSCRIPTION_SHARE"
+    },
+    {
+      "id": "2aa30378-6f2c-4f8d-b88a-6583d3d3a242",
+      "created_at": "2026-09-22T14:09:07.556Z",
+      "user_id": "25687ecb-0962-4971-bf14-c7f376f5bdb8",
+      "charity_id": "11111111-1111-1111-1111-111111111111",
+      "subscription_id": "11ad0fa3-f369-4d3c-af94-f5664ab4698a",
+      "amount": 4.93,
+      "contribution_percentage": 17,
+      "contribution_type": "SUBSCRIPTION_SHARE"
+    }
+  ]
+}
