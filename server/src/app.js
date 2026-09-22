@@ -2,7 +2,14 @@ import express from 'express';
 import cors from 'cors';
 import helmet from 'helmet';
 import morgan from 'morgan';
+import path from 'path';
+import fs from 'fs';
+import { fileURLToPath } from 'url';
 import { config } from './config/env.js';
+
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = path.dirname(__filename);
+const clientDistPath = path.resolve(__dirname, '../../client/dist');
 import authRoutes from './routes/authRoutes.js';
 import subscriptionRoutes from './routes/subscriptionRoutes.js';
 import charityRoutes from './routes/charityRoutes.js';
@@ -13,8 +20,13 @@ import adminRoutes from './routes/adminRoutes.js';
 
 const app = express();
 
-// Security headers
-app.use(helmet());
+// Security headers (relaxed CSP for SPA assets)
+app.use(
+  helmet({
+    contentSecurityPolicy: false,
+    crossOriginResourcePolicy: { policy: 'cross-origin' },
+  })
+);
 
 // CORS configuration
 app.use(
@@ -28,7 +40,11 @@ app.use(
         'http://localhost:3000',
         'http://127.0.0.1:5173',
       ];
-      if (allowedOrigins.includes(origin) || process.env.NODE_ENV === 'development') {
+      if (
+        allowedOrigins.includes(origin) ||
+        process.env.NODE_ENV === 'development' ||
+        (typeof origin === 'string' && (origin.endsWith('.onrender.com') || origin.endsWith('.vercel.app')))
+      ) {
         return callback(null, true);
       }
       return callback(new Error('Blocked by CORS policy'));
@@ -89,6 +105,17 @@ app.use('/api/scores', scoreRoutes);
 app.use('/api/draws', drawRoutes);
 app.use('/api/winners', winnerRoutes);
 app.use('/api/admin', adminRoutes);
+
+// Serve static frontend assets if built
+if (fs.existsSync(clientDistPath)) {
+  app.use(express.static(clientDistPath));
+  app.get('*', (req, res, next) => {
+    if (req.path.startsWith('/api')) {
+      return res.status(404).json({ error: 'API endpoint not found' });
+    }
+    res.sendFile(path.resolve(clientDistPath, 'index.html'));
+  });
+}
 
 // Centralized error handler
 app.use((err, req, res, next) => {

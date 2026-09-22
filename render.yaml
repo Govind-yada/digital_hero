@@ -1,0 +1,54 @@
+services:
+  # 1. Backend REST API Web Service
+  - type: web
+    name: digital-heroes-backend
+    env: node
+    plan: free
+    rootDir: server
+    buildCommand: npm install
+    startCommand: npm start
+    healthCheckPath: /api/health
+    envVars:
+      - key: NODE_ENV
+        value: production
+      - key: CLIENT_URL
+        value: https://digital-heroes-frontend.onrender.com
+      - key: JWT_SECRET
+        value: digital_heroes_super_secret_jwt_key_change_in_production
+      - key: JWT_EXPIRES_IN
+        value: 7d
+      - key: DATABASE_URL
+        value: postgresql://postgres:Krishna%401234!%40%23%24@db.qmanmvdcwaxwmwqcxviq.supabase.co:5432/postgres
+      - key: SUPABASE_URL
+        value: https://qmanmvdcwaxwmwqcxviq.supabase.co/rest/v1/
+      - key: SUPABASE_ANON_KEY
+        value: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InFtYW5tdmRjd2F4d213cWN4dmlxIiwicm9sZSI6ImFub24iLCJpYXQiOjE3OTAwNzk3NzksImV4cCI6MjEwNTY1NTc3OX0.xXpHlXdaWIXKvOuI7whoQ5ujDPreS5t2Q6JyoCcQnoY
+      - key: SUPABASE_SERVICE_ROLE_KEY
+        value: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InFtYW5tdmRjd2F4d213cWN4dmlxIiwicm9sZSI6InNlcnZpY2Vfcm9sZSIsImlhdCI6MTc5MDA3OTc3OSwiZXhwIjoyMTA1NjU1Nzc5fQ.FirCS6-zDhMtcOdoOE0hwfzUOp_xcB-NCprve6VzuGA
+      - key: STRIPE_SECRET_KEY
+        value: sk_test_your_stripe_secret_key
+      - key: STRIPE_WEBHOOK_SECRET
+        value: whsec_your_stripe_webhook_secret
+      - key: STRIPE_MONTHLY_PRICE_ID
+        value: price_monthly_sample
+      - key: STRIPE_YEARLY_PRICE_ID
+        value: price_yearly_sample
+      - key: PRIZE_POOL_CONTRIBUTION_PERCENT
+        value: 50
+      - key: MIN_CHARITY_CONTRIBUTION_PERCENT
+        value: 10
+
+  # 2. Frontend React Vite Static Site
+  - type: web
+    name: digital-heroes-frontend
+    env: static
+    rootDir: client
+    buildCommand: npm install && npm run build
+    staticPublishPath: dist
+    routes:
+      - type: rewrite
+        source: /*
+        destination: /index.html
+    envVars:
+      - key: VITE_API_URL
+        value: https://digital-heroes-backend.onrender.com/api
