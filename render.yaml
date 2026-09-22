@@ -4,6 +4,7 @@ services:
     name: digital-heroes-backend
     env: node
     plan: free
+    branch: master
     rootDir: server
     buildCommand: npm install
     startCommand: npm start
@@ -42,6 +43,7 @@ services:
   - type: web
     name: digital-heroes-frontend
     env: static
+    branch: master
     rootDir: client
     buildCommand: npm install && npm run build
     staticPublishPath: dist
